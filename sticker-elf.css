@@ -1,0 +1,186 @@
+@charset 'UTF-8';
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    font: inherit;
+    font-size: 100%;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+    border: 0;
+    outline: 0;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol,
+ul {
+    list-style: none;
+}
+blockquote,
+q {
+    quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+ins {
+    text-decoration: none;
+}
+del {
+    text-decoration: line-through;
+}
+table {
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+*,
+*:after,
+*:before {
+    box-sizing: border-box;
+    outline: none;
+}
+
+html,
+body {
+    height: 100%;
+    min-height: 100%;
+}
+
+body {
+    font-family: 'maax', 'Droid Sans Mono', monospace;
+    display: table;
+    width: 100%;
+    color: #141414;
+    
+	background: #c9de96;
+	background: -moz-linear-gradient(top, #c9de96 0%, #8ab66b 44%, #398235 100%);
+	background: -webkit-linear-gradient(top, #c9de96 0%,#8ab66b 44%,#398235 100%);
+	background: linear-gradient(to bottom, #c9de96 0%,#8ab66b 44%,#398235 100%);
+
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+section {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    max-width: 680px;
+    padding: 0 20px;
+    transform: translate(-50%, -75%);
+}
+
+.logo {
+    height: 240px;
+    margin: 0 auto;
+    background: url('images/pink-shirt.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.appstore-logo {
+	height: 80px;
+	margin: 40px 0 0 0;
+    background: url('images/third-party/Download_on_the_App_Store_Badge_US-UK_135x40.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
